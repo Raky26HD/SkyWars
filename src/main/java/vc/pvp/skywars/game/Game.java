@@ -492,7 +492,7 @@ public class Game {
         scoreboard = Bukkit.getScoreboardManager().getNewScoreboard();
         objective = scoreboard.registerNewObjective("info", "dummy");
         objective.setDisplaySlot(DisplaySlot.SIDEBAR);
-        objective.setDisplayName("\2474\247lHunter\2472\247lBoard");
+        objective.setDisplayName("\2474\247lHunter\2472\247lLands");
     }
 
     private void unregisterScoreboard() {
